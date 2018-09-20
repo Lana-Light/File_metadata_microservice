@@ -1,0 +1,71 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #024;/*#222;
+	background-color: #ECF0F1;*/
+  background: rgb(230, 250, 220);
+  /*background: radial-gradient(rgba(250,250,0,0.5), rgba(250,250,0,0.3));*/
+    /*, url('https://cdn.glitch.com/9d1f6f37-17e0-4840-9899-51c85e9b4a4b%2Fthumbnails%2Fs800.webp?1537205548915') no-repeat;*/
+	background-size: 100%;
+  text-align: center;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.footer {
+	margin-top: 60px;
+}
+
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	/*color: #2574A9;*/
+  color: #381; 
+}
+
+a:hover {
+  color: #7d7;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  border-radius: 5px;
+  background: #8c5;
+}
+
+input:hover {
+  background: #ad7;
+}
+
+input#button {
+  width: 230px;
+  border: green 3px outset;
+  color: #024;
+}
+.view {
+  position:relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px  solid  #0af;
+  padding: 20px;
+  width: 60%;
+  min-width: 400px;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
